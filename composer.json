@@ -1,0 +1,32 @@
+{
+  "name": "yoannisj/craft-mixed-categories",
+  "description": "Craft CMS field type allowing editors to select categories from multiple groups",
+  "type": "craft-plugin",
+  "keywords": ["craft", "field-type", "categories", "relations"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yoannis Jamar",
+      "homepage": "https://github.com/yoannisj"
+    }
+  ],
+  "support": {
+    "email": "office@yoannis.com",
+    "issues": "https://github.com/yoannisj/craft-mixed-categories/issues?state=open",
+    "source": "https://github.com/yoannisj/craft-mixed-categories",
+    "docs": "https://github.com/yoannisj/craft-mixed-categories/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yoannisj\\mixedcategories\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Mixed Categories Field",
+    "handle": "mixed-categories-field",
+    "class": "yoannisj\\mixedcategories\\MixedCategories"
+  }
+}
