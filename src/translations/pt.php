@@ -11,7 +11,7 @@
  * @package yoannisj/craft-mixed-categories
  */
 
-
 return [
-    "Categories (Mixed Groups)" => "Categorias (Grupos Multiplos)"
+    "Categories (Mixed Groups)" => "Categorias (Grupos Multiplos)",
+    "None of this field's category groups is valid." => "None of this field's category groups is valid.",
 ];

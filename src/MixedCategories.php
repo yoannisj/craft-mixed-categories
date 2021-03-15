@@ -15,6 +15,7 @@ namespace yoannisj\mixedcategories;
 
 use yii\base\Event;
 
+use Craft;
 use craft\base\Plugin;
 use craft\services\Fields;
 use craft\events\RegisterComponentTypesEvent;

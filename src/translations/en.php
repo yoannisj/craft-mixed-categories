@@ -13,5 +13,6 @@
 
 
 return [
-    "Categories (Mixed Groups)" => "Categories (Mixed Groups)"
+    "Categories (Mixed Groups)" => "Categories (Mixed Groups)",
+    "None of this field's category groups is valid." => "None of this field's category groups is valid.",
 ];

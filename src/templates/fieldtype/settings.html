@@ -1,0 +1,16 @@
+{% import '_includes/forms' as forms %}
+{% extends '_components/fieldtypes/Categories/settings' %}
+
+{% block branchLimitField %}
+
+  {# {{ forms.checkboxField({
+    label: 'Allow categories from different group' | t('mixed-categories-field'),
+    instructions: 'If this is turned off, editors have to choose one of the available groups before they can select categories',
+    id: 'allow-mixed-sources',
+    name: 'allowMixedSources',
+    checked: field.allowMixedSources
+  }) }} #}
+
+  {{ parent() }}
+
+{% endblock %}
