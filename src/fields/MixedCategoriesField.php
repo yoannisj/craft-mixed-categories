@@ -120,5 +120,4 @@ class MixedCategoriesField extends CategoriesField
 
         return parent::inputHtml($value, $element);
     }
-
 }
