@@ -1,6 +1,5 @@
 # Release Notes for Mixed Categories Field
 
+## v0.1.0 - 2020.03.15
 
-## v1.0.0 - YYYY.MM.DD
-
-Initial releast
+Initial release
